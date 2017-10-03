@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
                 .setDateFormat("yyyy-MM-dd'T'HH:mm:ssZ")
                 .create();
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.0.11/json/")
+                .baseUrl("http://192.168.0.11/json/") 
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
         ApiEndpoint apiService = retrofit.create(ApiEndpoint.class);
