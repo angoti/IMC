@@ -6,43 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.professorangoti.imc.MainActivity">
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-        android:text="@string/texto1"/>
-
-        <EditText
-            android:id="@+id/peso_id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/texto2" />
-
-        <EditText
-            android:id="@+id/altura_id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-    </LinearLayout>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="calcula"
-        android:text="@string/texto3"
-        android:textSize="18sp" />
 
     <FrameLayout
         android:layout_width="match_parent"
